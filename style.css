@@ -211,7 +211,7 @@ header {
 }
 .projects > div {
     background-color: var(--clr-card-face);
-    height: 200px;
+    height: max(fit-content, 200px);
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -227,13 +227,10 @@ header {
     color: #000;
 }
 
-
 .projects > div p {
     background-color: var(--clr-card-text-bg);
-    height: inherit;
     padding: 10px;
     font-size: 0.85rem;
-    line-height: 1.4;
     border: 1px solid;
     border-color: #808080 #dfdfdf #dfdfdf #808080; 
 }

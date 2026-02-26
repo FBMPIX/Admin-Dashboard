@@ -158,6 +158,7 @@ header {
 }
 
 .profile-minimal {
+    cursor: pointer;
     padding-top: 15px;
     padding-right: 20px;
 }
